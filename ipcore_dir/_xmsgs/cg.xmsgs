@@ -8,22 +8,28 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">A core named &apos;RAM_B&apos; already exists in the project. Output products for this core may be overwritten.</arg>
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Improperly formatted COE file .\jump_game.coe. Parameter assignments</arg>
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">A core named &apos;RAM_B&apos; already exists in the project. Output products for this core may be overwritten.</arg>
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   should be separated by a &quot;;&quot; character.</arg>
 </msg>
 
-<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;RAM_B&apos;...</arg>
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">    Found an illegal assignment on line 1.</arg>
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file G:/MIX_FINAL_PROJ/ipcore_dir/tmp/_cg/RAM_B/doc/blk_mem_gen_v7_3_vinfo.html with file from view xilinx_documentation</arg>
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Improperly formatted COE file .\jump_game.coe. Parameter assignments</arg>
 </msg>
 
-<msg type="info" file="sim" num="949" delta="old" >Finished generation of ASY schematic symbol.
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   should be separated by a &quot;;&quot; character.</arg>
 </msg>
 
-<msg type="info" file="sim" num="948" delta="old" >Finished FLIST file generation.
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">    Found an illegal assignment on line 1.</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">An invalid core configuration has been detected during</arg>
+</msg>
+
+<msg type="error" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">   Customization. Core parameters will be reset to their default values.</arg>
 </msg>
 
 </messages>
