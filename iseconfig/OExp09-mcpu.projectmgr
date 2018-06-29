@@ -44,13 +44,13 @@
          <ClosedNode>/Top_OExp12_MSOC G:|computerorganization|OExp12|Top_OExp12_MSOC.v/U1 - MCPU/DataPath - MDPath</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Top_OExp12_MSOC (E:/org_project/Top_OExp12_MSOC.v)</SelectedItem>
+         <SelectedItem>ps2 - ps2_ver2 (E:/org_project/ps2_kb.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000176000000020000000000000000000000000200000064ffffffff000000810000000300000002000001760000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Top_OExp12_MSOC (E:/org_project/Top_OExp12_MSOC.v)</CurrentItem>
+      <CurrentItem>ps2 - ps2_ver2 (E:/org_project/ps2_kb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -100,13 +100,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Manage Configuration Project (iMPACT)</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000154000000010000000100000000000000000000000064ffffffff000000810000000000000001000001540000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Manage Configuration Project (iMPACT)</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
       <ClosedNodes>
