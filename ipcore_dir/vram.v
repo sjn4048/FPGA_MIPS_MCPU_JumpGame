@@ -22,7 +22,7 @@
 *     devices, or systems.  Use in such applications are expressly             *
 *     prohibited.                                                              *
 *                                                                              *
-*     (c) Copyright 1995-2017 Xilinx, Inc.                                     *
+*     (c) Copyright 1995-2018 Xilinx, Inc.                                     *
 *     All rights reserved.                                                     *
 *******************************************************************************/
 // You must compile the wrapper file VRAM.v when simulating
@@ -48,17 +48,17 @@ module VRAM(
 
 input clka;
 input [0 : 0] wea;
-input [17 : 0] addra;
+input [18 : 0] addra;
 input [11 : 0] dina;
 input clkb;
-input [17 : 0] addrb;
+input [18 : 0] addrb;
 output [11 : 0] doutb;
 
 // synthesis translate_off
 
   BLK_MEM_GEN_V7_3 #(
-    .C_ADDRA_WIDTH(18),
-    .C_ADDRB_WIDTH(18),
+    .C_ADDRA_WIDTH(19),
+    .C_ADDRB_WIDTH(19),
     .C_ALGORITHM(1),
     .C_AXI_ID_WIDTH(4),
     .C_AXI_SLAVE_TYPE(0),
@@ -93,8 +93,8 @@ output [11 : 0] doutb;
     .C_MEM_TYPE(1),
     .C_MUX_PIPELINE_STAGES(0),
     .C_PRIM_TYPE(1),
-    .C_READ_DEPTH_A(245760),
-    .C_READ_DEPTH_B(245760),
+    .C_READ_DEPTH_A(307200),
+    .C_READ_DEPTH_B(307200),
     .C_READ_WIDTH_A(12),
     .C_READ_WIDTH_B(12),
     .C_RST_PRIORITY_A("CE"),
@@ -111,8 +111,8 @@ output [11 : 0] doutb;
     .C_USE_SOFTECC(0),
     .C_WEA_WIDTH(1),
     .C_WEB_WIDTH(1),
-    .C_WRITE_DEPTH_A(245760),
-    .C_WRITE_DEPTH_B(245760),
+    .C_WRITE_DEPTH_A(307200),
+    .C_WRITE_DEPTH_B(307200),
     .C_WRITE_MODE_A("WRITE_FIRST"),
     .C_WRITE_MODE_B("WRITE_FIRST"),
     .C_WRITE_WIDTH_A(12),

@@ -21,7 +21,7 @@
 module GPU(	input clk,
 				input [8:0] row,
 				input [9:0] col,
-				output reg [17:0] vram_addr,
+				output reg [18:0] vram_addr,
 				
 				input [11:0] vram_data,
 				output reg [11:0] vga_data
